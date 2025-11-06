@@ -2,7 +2,7 @@
 To Run this code you must change the following:
 - **PathName** to the path folder the frames are stored in (this is in the first code block)
 - **numberOfWorms** to the number of worms seen in the cropped video (this is in the second code block)
-- **pixels_per_mm** this is a conversion factor to change this you can make a line in image j spanning fro mone side of the plate to the other. Take the number of pixels that is and divde by 150mm (since the plate is 15cm)
+- **pixels_per_mm** this is a conversion factor to change this you can make a line in image j spanning from one side of the plate to the other. Take the number of pixels that line is and divde by 150mm (since the plate is 15cm).
 - **frames_per_minute** if frame rate changes
 
 Note: If you are using the ringlight to record the videos you have to invert the video because we had issues which the code not being able to read the frames otherwise. (not sure how to fix this yet)
