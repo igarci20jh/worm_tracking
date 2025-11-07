@@ -14,7 +14,7 @@ To Run this code you must change the following:
 This Excel sheet has the different setting used to take a total of 11 videos and how well the code tracked the worms in the video based on the worms tracked, frames dropped, and number of worms tracked through the whole video. The best camera settings are the row that is colored grey. The last three rows are three videos recorded with these optimal settings using the worm tracking code. There are NAs in the distance column because this was no longer needed after the settings were optimized. There are notes in some of the cells that describe what certain columns are in case it is difficult to understand.
 
 ## Rotation Talk Powerpoint
-Gifs for this powerpoint were taken from the 101425-inverted folder on the F drive of the microscopy computer. Only certain frames were shown and the code for the graphs are in the code bloacks named "Reorientation graphs for worms 3 & 5 in specific frames" and "velocity graph for 2 specific worms in specific frames".
+Gifs for this powerpoint were taken from the 101425-inverted folder on the F drive of the microscopy computer. This is the video we took with the ringlight but inverted using fiji. Only certain frames were shown and the code for the graphs are in the code blocks named "Reorientation graphs for worms 3 & 5 in specific frames" and "velocity graph for 2 specific worms in specific frames".
 
 ## Data Storage
 Videos taken during this rotation are saved in the DATADRIVE3(F:) on the microscopy computer in a folder named "IsabelG".
