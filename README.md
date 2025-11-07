@@ -6,12 +6,12 @@ To Run this code you must change the following:
 - **frames_per_minute** if frame rate changes
 
 **Notes:**
-- If you are using the ringlight to record the videos you have to invert the video because we had issues which the code not being able to read the frames otherwise. (not sure how to fix this yet)
+- If you are using the ringlight to record the videos you may have to invert the video in fiji first because we had issues which the code not being able to read the frames otherwise. (not sure how to fix this yet)
 
 - The code block that calculates reorientations of the worms definitely needs work especially the code block to calculate all the reorientation rates from all the worms in the video. We must add a limit to change in theta that the code will consider a reorientation (60 degrees or about 1.04 radians). We must also wrap to pi. 
 
 ## Optimizing Video Taking Spreadsheet
-This Excel sheet has the different setting used to take a total of 11 videos and how well the code tracked the worms in the video based on the worms tracked, frames dropped, and number of worms tracked through the whole video. The best camera settings are the row that is colored grey. The last three rows are four videos recorded with these optimal settings using the worm tracking code. There are NAs in the distance column because this was no longer needed after the settings were optimized. There are notes in some of the cells that describe what certain columns are in case it is difficult to understand.
+This Excel sheet has the different setting used to take a total of 11 videos and how well the code tracked the worms in the video based on the worms tracked, frames dropped, and number of worms tracked through the whole video. The best camera settings are the row that is colored grey. The last three rows are three videos recorded with these optimal settings using the worm tracking code. There are NAs in the distance column because this was no longer needed after the settings were optimized. There are notes in some of the cells that describe what certain columns are in case it is difficult to understand.
 
 ## Rotation Talk Powerpoint
 Gifs for this powerpoint were taken from the 101425-inverted folder on the F drive of the microscopy computer. Only certain frames were shown and the code for the graphs are in the code bloacks named "Reorientation graphs for worms 3 & 5 in specific frames" and "velocity graph for 2 specific worms in specific frames".
